@@ -1,0 +1,20 @@
+.appRoot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 30vh;
+}
+
+.infoContainer {
+  width: 400px;
+  margin: 20px;
+  text-align: center;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  border: solid 10px sandybrown;
+}
