@@ -9,7 +9,6 @@ import "./app.css";
 const App = () => {
   const [pokemon, setPokemon] = useState<Pokemon>();
   const [total, setTotal] = useState<number>(0);
-  const [moves, setMoves] = useState();
   const [result, setResult] = useState<string | number>("bulbasaur");
 
   useEffect(() => {
